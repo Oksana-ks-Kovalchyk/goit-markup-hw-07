@@ -3,9 +3,12 @@
 
 // base styles
 @import "./base/common";
+@import "./base/reset";
 
 // component styles
 @import "./components/buttons";
+@import "./components/section";
+@import "./components/container";
 
 // layout styles
 @import "./layouts/header";

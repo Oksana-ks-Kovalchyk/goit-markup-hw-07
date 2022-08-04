@@ -1,1 +1,131 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@charset "UTF-8";
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+:root {
+  /* fonts */
+  --main-font: "Roboto";
+  --secondary-font: "Raleway";
+  /* text colors */
+  --accent-txt-cl: #2196f3;
+  --black-txt-cl: #212121;
+  --white-txt-cl: #FFFFFF;
+  --main-txt-cl: #757575;
+  /* background color */
+  --main-bg-cl: #FFFFFF;
+  --hero-bg-cl: #2F303A;
+  --btn-bg-cl: #F5F4FA;
+  --team-bg-cl: #F5F4FA;
+  --hvr-bg-cl: #188CE8;
+  /* border color */
+  --header-cl: #ECECEC;
+  --portf-cl: #EEEEEE;
+  /* animation */
+  --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: var(--main-font), sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  background-color: var(--main-bg-cl);
+  letter-spacing: 0.03em;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* Стилі для обнуления   */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+  /* or */
+  font-style: inherit;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  font-style: normal;
+  font-family: inherit;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: color var(--anim-slow), background-color var(--anim-slow);
+  transition: color var(--anim-slow), background-color var(--anim-slow);
+}
+
+.btn:hover, .btn:focus {
+  background-color: var(--accent-txt-cl);
+  color: var(--white-txt-cl);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-mode-light {
+  color: var(--black-txt-cl);
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  background: var(--btn-bg-cl);
+}
+
+.btn-mode-dark {
+  color: var(--white-txt-cl);
+  text-align: center;
+  padding: 10px 32px;
+  min-width: 200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=main.css.map */
