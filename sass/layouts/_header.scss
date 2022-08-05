@@ -1,1 +1,61 @@
-// четвертий паршал
+.header {
+    background-color: var(--main-bg-cl);
+
+}
+
+.header.border {
+    border-bottom: 1px solid var(--header-cl);
+
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list.list {
+    margin-left: 93px;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+.header-link {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black-txt-cl);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color var(--anim-slow);
+
+}
+
+.header-link.current {
+    color: var(--accent-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header.group.list {
+    display: flex;
+    margin-left: auto;
+}

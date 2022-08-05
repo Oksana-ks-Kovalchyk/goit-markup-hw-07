@@ -2,70 +2,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-footer {
-    display: block;
-}
-
 /* Секція хедер */
 
-.header {
-    background-color: var(--main-bg-cl);
-
-}
-
-.header.border {
-    border-bottom: 1px solid var(--header-cl);
-
-}
-
-.header-list {
-    display: flex;
-}
-
-.header-list.list {
-    margin-left: 93px;
-
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-}
-
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
-.header-list-item:not(:last-child) {
-    margin-right: 50px;
-
-}
 
 
 /* logo */
@@ -86,28 +24,7 @@ footer {
 }
 
 
-.header-link {
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--black-txt-cl);
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-    transition: color var(--anim-slow);
-
-}
-
-.header-link.current {
-    color: var(--accent-txt-cl);
-}
-
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-txt-cl);
-}
 
 .current {
     position: relative;
@@ -130,10 +47,7 @@ footer {
     border-radius: 2px;
 }
 
-.header.group.list {
-    display: flex;
-    margin-left: auto;
-}
+
 
 .contacts:not(:last-child) {
     margin-right: 50px;
@@ -204,103 +118,13 @@ footer {
 
 
 
-.hero-title {
-    margin-bottom: 30px;
-    width: 696px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-txt-cl);
-    margin-right: auto;
-    margin-left: auto;
 
-}
 
-.hero-btn {
-    background: var(--accent-txt-cl);
-    font-weight: 700;
-    line-height: 1.88;
-    font-size: 16px;
 
-    align-items: center;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-
-    
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-}
 
 /* Секція Benefits */
 
-.benefits-container {
-    display: flex;
-}
 
-.benefits-list {
-    display: flex;
-
-}
-
-.benefits-item {
-    width: 270px;
-}
-
-.benefits-item:not(:last-child) {
-    margin-right: 30px;
-
-}
-
-
-.benefits-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-
-    color: var(--black-txt-cl);
-}
-
-.descript {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: var(--main-txt-cl);
-}
-
-.benefits-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--btn-bg-cl);
-    border-radius: 4px;
-}
-
-.features-icons {
-    fill: currentColor;
-    width: 70px;
-    height: 70px;
-}
 
 /* Секція About */
 
@@ -309,332 +133,26 @@ footer {
 }
 
 
-.about-list {
-    display: flex;
-    padding-top: 0;
-}
 
-.about-title {
-    margin: 0;
-    margin-bottom: 50px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.about-item {
-    position: relative;
-    width: 370px;
-}
-
-.about-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.about-pic {
-    display: block;
-}
-
-.desc {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    text-transform: uppercase;
-    background-color: rgba(47, 48, 58, 0.8);
-    color: var(--white-txt-cl);
-    bottom: 0;
-}
-
-
-.about,
-.team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-}
 
 
 
 /* Секція team  */
 
-.team {
-    background-color: var(--team-bg-cl);
-
-}
-
-.team-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--black-txt-cl);
-}
 
 
-.team-list {
-    display: flex;
-    margin-top: 50px;
 
-    font-size: 16px;
-    line-height: 1.19;
-    color: var(--main-txt-cl);
-}
-
-.name {
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--black-txt-cl);
-    margin-top: 30px;
-}
-
-.team-texts {
-    margin-top: 10px;
-    margin-bottom: 16px;
-    color: var(--main-txt-cl);
-    font-weight: 400;
-}
-
-
-.team-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.team-item {
-    background: var(--main-bg-cl);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    margin-left: auto;
-}
-
-.team-icons {
-    padding-inline-start: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    background-color: var(--main-bg-cl);
-}
-
-.icon-list:not(:last-child) {
-    margin-right: 10px;
-}
-
-.command {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--main-bg-cl);
-    color: #AFB1B8;
-
-    transition: color var(--anim-slow), background-color var(--anim-slow);
-}
-
-.command:hover,
-.command:focus {
-    background-color: var(--accent-txt-cl);
-    color: var(--main-bg-cl);
-}
-
-.command-icons {
-    fill: currentColor;
-}
-
-.command-icons {
-    transition: color var(--anim-slow), background-color var(--anim-slow);
-}
-
-.command-icons:hover,
-.command-icons:focus {
-    fill: var(--main-bg-cl);
-}
 
 /* секція clients */
 
-.customers {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--black-txt-cl);
-    margin-bottom: 50px;
-}
-
-.client-list {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    padding-inline-start: 0;
-}
-
-.client-icons:not(:last-child) {
-    margin-right: 30px;
-}
-
-
-.company {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    color: #afb1b8;
-
-    cursor: pointer;
-
-    transition: color var(--anim-slow), border-color var(--anim-slow);
-}
-
-.company:hover,
-.company:focus {
-    color: var(--accent-txt-cl);
-    border-color: var(--accent-txt-cl);
-}
-
-
-.company:hover .logo-company,
-.company:focus .logo-company {
-    fill: var(--accent-txt-cl);
-}
-
-.logo-company {
-    fill: currentColor;
-}
 
 /* Секція portfolio */
 
-.portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
-.prtf {
-    display: block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    text-decoration: none;
-    color: var(--black-txt-cl);
-
-    transition: color var(--anim-slow), box-shadow var(--anim-slow);
-}
-
-.prtf:hover,
-.prtf:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    ;
-}
-
-
-.portfolio-overlay {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-
-.portfolio-desc {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
-    padding: 63px 24px;
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    transform: translateY(100%);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(3px);
-    background-color: rgba(33, 150, 243, 0.9);
-
-    transition: var(--anim-slow);
-}
-
-.prtf:hover .portfolio-desc,
-.prtf:focus .portfolio-desc {
-    transform: translateY(0);
-}
-
-.list-btn {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 50px;
-    list-style: none;
-
-}
-
-.tack:not(:last-child) {
-    margin-right: 8px;
-}
-
-.title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--black-txt-cl);
-    margin-bottom: 4px;
-}
-
-.text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-
-    color: var(--main-txt-cl);
-
-}
-
-.description {
-    padding: 20px 24px;
-    border-left: 1px solid var(--portf-cl);
-    border-right: 1px solid var(--portf-cl);
-    border-bottom: 1px solid var(--portf-cl);
-
-}
 
 /* список карток */
 
-.card-sed {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
-.page {
-    flex-basis: calc((100% - 60px) / 3);
-    background-color: var(--main-bg-cl);
-
-}
 
 /* Секція футер */
 .footer {

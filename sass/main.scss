@@ -1,14 +1,23 @@
 // utils styles
 @import "./utils/vars";
+@import "./utils/visually-hidden";
 
 // base styles
 @import "./base/common";
 @import "./base/reset";
+@import "./base/card-set";
 
 // component styles
 @import "./components/buttons";
 @import "./components/section";
 @import "./components/container";
+@import "./components/title";
 
 // layout styles
 @import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/benefits";
+@import "./layouts/about";
+@import "./layouts/client";
+@import "./layouts/portfolio";
+@import "./layouts/team";

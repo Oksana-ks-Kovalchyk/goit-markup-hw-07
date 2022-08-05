@@ -1,0 +1,16 @@
+.card-sed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+
+    &.page {
+    flex-basis: calc((100% - 60px) / 3);
+    background-color: var(--main-bg-cl);
+    }
+
+}
+
