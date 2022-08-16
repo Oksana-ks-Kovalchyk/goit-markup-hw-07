@@ -417,11 +417,6 @@ footer {
   border-color: var(--accent-txt-cl);
 }
 
-.sign-up-group:focus + .sign-up-icon,
-.sign-up-group:hover + .sign-up-icon {
-  fill: var(--accent-txt-cl);
-}
-
 .sign-up-icon {
   position: absolute;
   left: 15px;
@@ -436,6 +431,11 @@ footer {
 .sign-up-icon:hover, .sign-up-icon:focus {
   fill: var(--accent-txt-cl);
   outline: transparent;
+}
+
+.sign-up-group:focus + .sign-up-icon,
+.sign-up-group:hover + .sign-up-icon {
+  fill: var(--accent-txt-cl);
 }
 
 .span-modal {
@@ -895,13 +895,13 @@ footer {
   border-color: var(--accent-txt-cl);
 }
 
+.logo-company {
+  fill: currentColor;
+}
+
 .company:hover .logo-company,
 .company:focus .logo-company {
   fill: var(--accent-txt-cl);
-}
-
-.logo-company {
-  fill: currentColor;
 }
 
 .portfolio {
@@ -1132,9 +1132,6 @@ footer {
 
 .footer-icons {
   fill: var(--main-bg-cl);
-}
-
-.footer-icons {
   -webkit-transition: color var(--anim-slow);
   transition: color var(--anim-slow);
 }

@@ -7,7 +7,6 @@
     z-index: 1000;
     width: 100%;
     height: 100%;
-
     background-color: rgba(0, 0, 0, 0.2);
 
     opacity: 1;
@@ -21,7 +20,6 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
 }
 
 .modal {
@@ -78,7 +76,6 @@
 .sing-up-label {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -86,7 +83,6 @@
     display: flex;
     flex-direction: column;
 }
-
 
 
 .span-label {
@@ -115,7 +111,6 @@
     margin-bottom: 12px;
 
     color: var(--black-txt-cl);
-
 }
 
 
@@ -138,16 +133,7 @@
     &:focus {
         border-color: var(--accent-txt-cl);
     }
-
 }
-
-
-
-.sign-up-group:focus+.sign-up-icon,
-.sign-up-group:hover+.sign-up-icon {
-    fill: var(--accent-txt-cl);
-}
-
 
 
 .sign-up-icon {
@@ -165,8 +151,12 @@
         fill: var(--accent-txt-cl);
         outline: transparent;
     }
-}
 
+    .sign-up-group:focus+&,
+    .sign-up-group:hover+& {
+        fill: var(--accent-txt-cl);
+    }
+}
 
 
 .span-modal {
@@ -177,7 +167,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-
 }
 
 .comment-textarea {
@@ -199,13 +188,11 @@
     transition: var(--anim-slow), border-color var(--anim-slow);
 
 
-
     &:hover,
     &:focus {
         outline: transparent;
         border-color: var(--accent-txt-cl);
     }
-
 }
 
 /* Checkbox */
@@ -228,7 +215,6 @@
     color: var(--main-txt-cl);
 
     user-select: none;
-
 }
 
 .checkbox-link {
@@ -247,7 +233,6 @@
     border-radius: 2px;
 
     transition: outline-color var(--anim-slow), background-color var(--anim-slow);
-
 }
 
 .form-checkbox-icon {
@@ -259,7 +244,6 @@
     background-color: var(--accent-txt-cl);
     outline-color: var(--accent-txt-cl);
 }
-
 
 
 .modal-btn {

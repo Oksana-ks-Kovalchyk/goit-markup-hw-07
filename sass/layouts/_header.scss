@@ -1,11 +1,9 @@
 .header {
     background-color: var(--main-bg-cl);
-
 }
 
 .header.border {
     border-bottom: 1px solid var(--header-cl);
-
 }
 
 .header-list {
@@ -17,20 +15,20 @@
 }
 
 
-
 .header-container {
     display: flex;
     align-items: center;
 }
+
 
 .header-nav {
     display: flex;
     align-items: center;
 }
 
+
 .header-list-item:not(:last-child) {
     margin-right: 50px;
-
 }
 
 .header-link {

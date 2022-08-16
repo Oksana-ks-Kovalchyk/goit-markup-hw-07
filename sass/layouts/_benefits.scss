@@ -27,14 +27,15 @@
     color: var(--black-txt-cl);
 }
 
+
 .descript {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     color: var(--main-txt-cl);
 }
+
 
 .benefits-icon {
     display: flex;
@@ -45,6 +46,7 @@
     background-color: var(--btn-bg-cl);
     border-radius: 4px;
 }
+
 
 .features-icons {
     fill: currentColor;

@@ -7,12 +7,14 @@
     margin-bottom: 50px;
 }
 
+
 .client-list {
     display: flex;
     margin: 0;
     list-style: none;
     padding-inline-start: 0;
 }
+
 
 .client-icons:not(:last-child) {
     margin-right: 30px;
@@ -42,13 +44,11 @@
 }
 
 
-
-
-.company:hover .logo-company,
-.company:focus .logo-company {
-    fill: var(--accent-txt-cl);
-}
-
 .logo-company {
     fill: currentColor;
+
+    .company:hover &,
+    .company:focus & {
+        fill: var(--accent-txt-cl);
+    }
 }
