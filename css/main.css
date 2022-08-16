@@ -179,6 +179,10 @@ footer {
   letter-spacing: 0.06em;
   color: var(--black-txt-cl);
   margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .header {
@@ -248,6 +252,78 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-txt-cl);
+}
+
+.span-web {
+  color: var(--black-txt-cl);
+}
+
+.current {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.current::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  display: inline-block;
+  background: #2196F3;
+  border-radius: 2px;
+}
+
+.contacts:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--main-txt-cl);
+  text-decoration: none;
+  list-style: none;
+  -webkit-transition: color var(--anim-slow);
+  transition: color var(--anim-slow);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-txt-cl);
+}
+
+.icon-envelope,
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .hero-title {
@@ -660,5 +736,221 @@ footer {
 .command-icons:hover,
 .command-icons:focus {
   fill: var(--main-bg-cl);
+}
+
+.footer {
+  background-color: var(--hero-bg-cl);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0 15px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.span {
+  color: var(--white-txt-cl);
+}
+
+.location {
+  color: var(--white-txt-cl);
+}
+
+.info:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.location,
+.mail,
+.phone {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.phone,
+.mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-join {
+  margin-left: 70px;
+}
+
+.connect {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-bg-cl);
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  color: var(--main-bg-cl);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  -webkit-transition: color var(--anim-slow), background-color var(--anim-slow);
+  transition: color var(--anim-slow), background-color var(--anim-slow);
+}
+
+.icon-group:hover,
+.icon-group:focus {
+  background-color: var(--accent-txt-cl);
+}
+
+.footer-icons {
+  fill: var(--main-bg-cl);
+}
+
+.footer-icons {
+  -webkit-transition: color var(--anim-slow);
+  transition: color var(--anim-slow);
+}
+
+/* Form footer */
+.contact-form-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.contact-form-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 570px;
+  height: 86px;
+}
+
+.contact-form-field {
+  padding: 15px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: var(--hero-bg-cl);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  outline: transparent;
+  -webkit-transform: border-color var(--anim-slow);
+          transform: border-color var(--anim-slow);
+}
+
+.contact-form-field:focus {
+  border-color: var(--accent-txt-cl);
+}
+
+.contact-form-field::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-form-field:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-form-field::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-form-field::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-btn {
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-left: 28px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: var(--accent-txt-cl);
+  color: var(--white-txt-cl);
+  font-size: inherit;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  -webkit-transition: var(--anim-slow);
+  transition: var(--anim-slow);
+}
+
+.telegram {
+  fill: var(--main-bg-cl);
+  margin-left: 10px;
+}
+
+.footer-span {
+  color: var(--white-txt-cl);
 }
 /*# sourceMappingURL=main.css.map */
