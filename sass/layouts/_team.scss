@@ -36,16 +36,16 @@
 }
 
 
-.team-item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .team-item {
     background: var(--main-bg-cl);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     margin-left: auto;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .team-icons {
@@ -73,23 +73,20 @@
     color: #AFB1B8;
 
     transition: color var(--anim-slow), background-color var(--anim-slow);
-}
 
-.command:hover,
-.command:focus {
-    background-color: var(--accent-txt-cl);
-    color: var(--main-bg-cl);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-txt-cl);
+        color: var(--main-bg-cl);
+    }
 }
 
 .command-icons {
     fill: currentColor;
-}
-
-.command-icons {
     transition: color var(--anim-slow), background-color var(--anim-slow);
-}
 
-.command-icons:hover,
-.command-icons:focus {
-    fill: var(--main-bg-cl);
+    &:hover,
+    &:focus {
+        fill: var(--main-bg-cl);
+    }
 }

@@ -9,11 +9,10 @@
 
 .benefits-item {
     width: 270px;
-}
 
-.benefits-item:not(:last-child) {
-    margin-right: 30px;
-
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 

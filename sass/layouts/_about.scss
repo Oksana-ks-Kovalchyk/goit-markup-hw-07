@@ -17,11 +17,14 @@
 .about-item {
     position: relative;
     width: 370px;
+
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.about-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .about-pic {
     display: block;

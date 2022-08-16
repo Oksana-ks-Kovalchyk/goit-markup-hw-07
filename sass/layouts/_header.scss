@@ -10,12 +10,13 @@
 
 .header-list {
     display: flex;
+
+    &.list {
+        margin-left: 93px;
+    }
 }
 
-.header-list.list {
-    margin-left: 93px;
 
-}
 
 .header-container {
     display: flex;
@@ -44,16 +45,16 @@
 
     transition: color var(--anim-slow);
 
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
 }
 
 .header-link.current {
     color: var(--accent-txt-cl);
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-txt-cl);
-}
 
 .header.group.list {
     display: flex;
@@ -76,29 +77,25 @@
 }
 
 
-
-
 .current {
     position: relative;
     display: flex;
     align-items: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 4px;
+        display: inline-block;
+
+        background: #2196F3;
+        border-radius: 2px;
+    }
 }
-
-
-.current::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    width: 100%;
-    height: 4px;
-    display: inline-block;
-
-    background: #2196F3;
-    border-radius: 2px;
-}
-
 
 
 .contacts:not(:last-child) {
@@ -116,18 +113,18 @@
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--main-txt-cl);
-
     text-decoration: none;
     list-style: none;
-
     transition: color var(--anim-slow);
 
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
 }
 
-.contact:hover,
-.contact:focus {
-    color: var(--accent-txt-cl);
-}
+
 
 .icon-envelope,
 .icon-smartphone {

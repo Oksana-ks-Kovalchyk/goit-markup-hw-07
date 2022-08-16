@@ -133,24 +133,21 @@
 
     transition: var(--anim-slow), border-color var(--anim-slow);
 
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-txt-cl);
+    }
+
 }
 
-.sign-up-group:hover,
-.sign-up-group:focus {
-    border-color: var(--accent-txt-cl);
-}
+
 
 .sign-up-group:focus+.sign-up-icon,
 .sign-up-group:hover+.sign-up-icon {
     fill: var(--accent-txt-cl);
 }
 
-
-.comment-textarea:hover,
-.comment-textarea:focus {
-    outline: transparent;
-    border-color: var(--accent-txt-cl);
-}
 
 
 .sign-up-icon {
@@ -161,13 +158,16 @@
     transform: translateY(-50%);
 
     transition: var(--anim-slow);
+
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-txt-cl);
+        outline: transparent;
+    }
 }
 
-.sign-up-icon:hover,
-.sign-up-icon:focus {
-    fill: var(--accent-txt-cl);
-    outline: transparent;
-}
+
 
 .span-modal {
     color: var(--accent-txt-cl);
@@ -197,6 +197,15 @@
     color: rgba(117, 117, 117, 0.5);
 
     transition: var(--anim-slow), border-color var(--anim-slow);
+
+
+
+    &:hover,
+    &:focus {
+        outline: transparent;
+        border-color: var(--accent-txt-cl);
+    }
+
 }
 
 /* Checkbox */
@@ -271,9 +280,11 @@
     margin-top: 30px;
 
     transition: background-color var(--anim-slow);
+
+
+    &:hover {
+        background-color: var(--hvr-bg-cl);
+    }
 }
 
 
-.modal-btn:hover {
-    background-color: var(--hvr-bg-cl);
-}

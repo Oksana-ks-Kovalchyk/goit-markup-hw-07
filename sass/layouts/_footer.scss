@@ -84,12 +84,14 @@
     border-radius: 50%;
 
     transition: color var(--anim-slow), background-color var(--anim-slow);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-txt-cl);
+    }
 }
 
-.icon-group:hover,
-.icon-group:focus {
-    background-color: var(--accent-txt-cl);
-}
+
 
 .footer-icons {
     fill: var(--main-bg-cl);
@@ -124,24 +126,24 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
     outline: transparent;
 
     transform: border-color var(--anim-slow);
+
+    &:focus {
+        border-color: var(--accent-txt-cl);
+    }
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
-.contact-form-field:focus {
-    border-color: var(--accent-txt-cl);
-}
 
-.contact-form-field::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-}
 
 .footer-btn {
 
@@ -161,7 +163,6 @@
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
     margin-left: 12px;
 
     transition: var(--anim-slow);

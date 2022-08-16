@@ -32,13 +32,16 @@
     cursor: pointer;
 
     transition: color var(--anim-slow), border-color var(--anim-slow);
+
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+        border-color: var(--accent-txt-cl);
+    }
 }
 
-.company:hover,
-.company:focus {
-    color: var(--accent-txt-cl);
-    border-color: var(--accent-txt-cl);
-}
+
 
 
 .company:hover .logo-company,

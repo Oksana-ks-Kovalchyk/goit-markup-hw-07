@@ -136,8 +136,7 @@ footer {
   transition: color var(--anim-slow), box-shadow var(--anim-slow), -webkit-box-shadow var(--anim-slow);
 }
 
-.prtf:hover,
-.prtf:focus {
+.prtf:hover, .prtf:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -414,20 +413,13 @@ footer {
   transition: var(--anim-slow), border-color var(--anim-slow);
 }
 
-.sign-up-group:hover,
-.sign-up-group:focus {
+.sign-up-group:hover, .sign-up-group:focus {
   border-color: var(--accent-txt-cl);
 }
 
 .sign-up-group:focus + .sign-up-icon,
 .sign-up-group:hover + .sign-up-icon {
   fill: var(--accent-txt-cl);
-}
-
-.comment-textarea:hover,
-.comment-textarea:focus {
-  outline: transparent;
-  border-color: var(--accent-txt-cl);
 }
 
 .sign-up-icon {
@@ -441,8 +433,7 @@ footer {
   transition: var(--anim-slow);
 }
 
-.sign-up-icon:hover,
-.sign-up-icon:focus {
+.sign-up-icon:hover, .sign-up-icon:focus {
   fill: var(--accent-txt-cl);
   outline: transparent;
 }
@@ -478,6 +469,11 @@ footer {
   color: rgba(117, 117, 117, 0.5);
   -webkit-transition: var(--anim-slow), border-color var(--anim-slow);
   transition: var(--anim-slow), border-color var(--anim-slow);
+}
+
+.comment-textarea:hover, .comment-textarea:focus {
+  outline: transparent;
+  border-color: var(--accent-txt-cl);
 }
 
 /* Checkbox */
@@ -620,12 +616,11 @@ footer {
   transition: color var(--anim-slow);
 }
 
-.header-link.current {
+.header-link:hover, .header-link:focus {
   color: var(--accent-txt-cl);
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link.current {
   color: var(--accent-txt-cl);
 }
 
@@ -697,8 +692,7 @@ footer {
   transition: color var(--anim-slow);
 }
 
-.contact:hover,
-.contact:focus {
+.contact:hover, .contact:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -896,8 +890,7 @@ footer {
   transition: color var(--anim-slow), border-color var(--anim-slow);
 }
 
-.company:hover,
-.company:focus {
+.company:hover, .company:focus {
   color: var(--accent-txt-cl);
   border-color: var(--accent-txt-cl);
 }
@@ -969,10 +962,6 @@ footer {
   font-weight: 400;
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .team-item {
   background: var(--main-bg-cl);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -980,6 +969,10 @@ footer {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin-left: auto;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-icons {
@@ -1022,23 +1015,18 @@ footer {
   transition: color var(--anim-slow), background-color var(--anim-slow);
 }
 
-.command:hover,
-.command:focus {
+.command:hover, .command:focus {
   background-color: var(--accent-txt-cl);
   color: var(--main-bg-cl);
 }
 
 .command-icons {
   fill: currentColor;
-}
-
-.command-icons {
   -webkit-transition: color var(--anim-slow), background-color var(--anim-slow);
   transition: color var(--anim-slow), background-color var(--anim-slow);
 }
 
-.command-icons:hover,
-.command-icons:focus {
+.command-icons:hover, .command-icons:focus {
   fill: var(--main-bg-cl);
 }
 
@@ -1138,8 +1126,7 @@ footer {
   transition: color var(--anim-slow), background-color var(--anim-slow);
 }
 
-.icon-group:hover,
-.icon-group:focus {
+.icon-group:hover, .icon-group:focus {
   background-color: var(--accent-txt-cl);
 }
 
