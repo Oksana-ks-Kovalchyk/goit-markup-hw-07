@@ -816,11 +816,11 @@ footer {
   margin-right: 30px;
 }
 
-.about-pic {
+.about__pic {
   display: block;
 }
 
-.desc {
+.about__desc {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -840,8 +840,7 @@ footer {
   bottom: 0;
 }
 
-.about,
-.team {
+.about {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -856,7 +855,7 @@ footer {
   margin-bottom: 50px;
 }
 
-.client-list {
+.client__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -866,7 +865,7 @@ footer {
           padding-inline-start: 0;
 }
 
-.client-icons:not(:last-child) {
+.client__icons:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -895,12 +894,12 @@ footer {
   border-color: var(--accent-txt-cl);
 }
 
-.logo-company {
+.company__logo {
   fill: currentColor;
 }
 
-.company:hover .logo-company,
-.company:focus .logo-company {
+.company:hover .company__logo,
+.company:focus .company__logo {
   fill: var(--accent-txt-cl);
 }
 
@@ -930,7 +929,7 @@ footer {
   background-color: var(--team-bg-cl);
 }
 
-.team-title {
+.team__title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -938,7 +937,7 @@ footer {
   color: var(--black-txt-cl);
 }
 
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -948,21 +947,21 @@ footer {
   color: var(--main-txt-cl);
 }
 
-.name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   color: var(--black-txt-cl);
   margin-top: 30px;
 }
 
-.team-texts {
+.team__texts {
   margin-top: 10px;
   margin-bottom: 16px;
   color: var(--main-txt-cl);
   font-weight: 400;
 }
 
-.team-item {
+.team__item {
   background: var(--main-bg-cl);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -971,11 +970,11 @@ footer {
   margin-left: auto;
 }
 
-.team-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-icons {
+.team__icons {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   display: -webkit-box;
@@ -1020,14 +1019,20 @@ footer {
   color: var(--main-bg-cl);
 }
 
-.command-icons {
+.command__icons {
   fill: currentColor;
   -webkit-transition: color var(--anim-slow), background-color var(--anim-slow);
   transition: color var(--anim-slow), background-color var(--anim-slow);
 }
 
-.command-icons:hover, .command-icons:focus {
+.command__icons:hover, .command__icons:focus {
   fill: var(--main-bg-cl);
+}
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 .footer {

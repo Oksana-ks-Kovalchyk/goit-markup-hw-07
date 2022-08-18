@@ -2,7 +2,7 @@
     background-color: var(--team-bg-cl);
 }
 
-.team-title {
+.team__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -11,7 +11,7 @@
 }
 
 
-.team-list {
+.team__list {
     display: flex;
     margin-top: 50px;
     font-size: 16px;
@@ -19,14 +19,14 @@
     color: var(--main-txt-cl);
 }
 
-.name {
+.team__name {
     font-weight: 500;
     font-size: 16px;
     color: var(--black-txt-cl);
     margin-top: 30px;
 }
 
-.team-texts {
+.team__texts {
     margin-top: 10px;
     margin-bottom: 16px;
     color: var(--main-txt-cl);
@@ -34,7 +34,7 @@
 }
 
 
-.team-item {
+.team__item {
     background: var(--main-bg-cl);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -46,7 +46,7 @@
     }
 }
 
-.team-icons {
+.team__icons {
     padding-inline-start: 0;
     display: flex;
     list-style: none;
@@ -79,7 +79,7 @@
     }
 }
 
-.command-icons {
+.command__icons {
     fill: currentColor;
     transition: color var(--anim-slow), background-color var(--anim-slow);
 
@@ -87,4 +87,11 @@
     &:focus {
         fill: var(--main-bg-cl);
     }
+}
+
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
