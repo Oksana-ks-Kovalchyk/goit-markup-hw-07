@@ -790,14 +790,14 @@ footer {
   height: 70px;
 }
 
-.about-list {
+.about__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 0;
 }
 
-.about-title {
+.about__title {
   margin: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -807,12 +807,12 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.about-item {
+.about__item {
   position: relative;
   width: 370px;
 }
 
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 30px;
 }
 
